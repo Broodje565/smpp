@@ -890,7 +890,7 @@ function createSettingsButton() {
 function main() {
 
   //createWidgetSystem();
-
+  document.body.classList.add("smpp"); // For modding
   let logoutButton = document.querySelector(".js-btn-logout");
   if (logoutButton) logoutButton.innerHTML = changeLogoutText();
 
